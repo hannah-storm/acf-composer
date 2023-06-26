@@ -457,6 +457,8 @@ abstract class Block extends Composer implements BlockContract
 
         $this->inlineStyle = $this->getInlineStyle();
 
+        $this->inlineStyle = $this->getInlineStyle();
+
         return $this->view($this->view, ['block' => $this]);
     }
 }
